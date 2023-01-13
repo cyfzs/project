@@ -1,0 +1,96 @@
+/* 下划线 */
+.page-header {border-bottom: 2px solid  #c60a08;}
+/*图片轮播*/
+#carousel-example-generic3{
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+}
+/* 无序列表 */
+.new6 ul{padding-left: 15px;}
+.new6 li {
+	font-size:15px;
+	height:30px;
+	margin-bottom:2px;
+	line-height:30px;
+	padding:0px 0px 5px 0px;
+    list-style-type:disc;
+}
+.new6 li a{
+    color: black;
+	box-sizing:border-box;
+    text-decoration:none;
+}
+.new6 li a:hover{color: tomato;}
+/* 微党课 */
+.wdk{
+    background-image:url('../images/wkt-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.red{color: #c60a08; display: inline;font-weight: bold;}
+.new12{
+    float: right;
+    font-size: 18px;
+    margin-top: 30px;
+    text-decoration:none;
+}
+#class li{
+    font-size:18px;
+	height:64px;
+	margin-bottom:2px;
+	line-height:30px;
+	padding:0px 0px 5px 10px;
+}
+#class li a{
+    color: black;
+	box-sizing:border-box;
+	padding-left:15px;
+    text-decoration:none;
+}
+#class li a:hover{color: tomato;}
+#music li{
+    font-size:18px;
+	height:64px;
+	margin-bottom:2px;
+	line-height:30px;
+	padding:0px 0px 5px 10px;
+}
+#music li a{
+    color: black;
+	box-sizing:border-box;
+	padding-left:15px;
+    text-decoration:none;
+}
+#music li a:hover{color: tomato;}
+.new6 li a span{
+	padding-right: 10px;
+}
+.well{
+    background-color: transparent;
+    border: none;
+}
+.well li a{font-size: 18px;}
+.hsjd{
+    background-image:url('../images/hsjd-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.table a{
+    color: black;
+    text-decoration:none;
+}
+.table a:hover{color: tomato;}
+/* 图片放大*/
+.box-img{
+    position:relative;
+	overflow:hidden;
+}
+.box-img img:nth-of-type(1){
+    transition:0.5s linear; /*代表持续时间为0.5s，恒速*/
+}
+.box-img:hover img:nth-of-type(1)
+{
+    transform:scale(1.1); /*图片放大*/
+    overflow:hidden;  /*多余部分隐藏*/
+}

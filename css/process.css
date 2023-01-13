@@ -1,0 +1,31 @@
+/* 四张图片 */
+.text{
+    font-size: 18px;
+    text-align: center;
+}
+.ghlc{
+    background-image:url('../images/ghlc-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* 专题推荐 */
+.page-header{border: 0px; margin-bottom: 0px;}
+.red{
+    color: #c60a08; 
+    display: inline;
+    font-weight: bold;
+}
+#carousel-example-generic{
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+}
+.bg1{
+    background-image:url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* 重大事件 */
+.arrow-left10,.arrow-right10{
+    border-radius:100%;
+}

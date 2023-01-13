@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>首页</title>
+  <!-- 引入 Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- 引入自己写的 CSS 文件 -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <!-- 响应式的导航栏 -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+          <span class="sr-only">切换导航</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- 图标 -->
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="images/brand.jpg">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="new.html">新闻资讯</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">党史学习<span class="caret"></span></a>
+            <ol class="dropdown-menu">
+              <li><a href="theory.html">创新理论</a></li>
+              <li><a href="process.html">光辉历程</a></li>
+              <li><a href="person.html">时代先锋</a></li>
+            </ol>
+          </li>
+          <li><a href="classic.html">红色经典</a></li>
+        </ul>
+        <div class="login navbar-right">
+          <a href="login.html">登录 | </a>
+          <a href="enroll.html">注册 </a>
+        </div>
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="请输入关键字">
+          </div>
+          <button type="submit" class="btn btn-default">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>搜索
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- 图片轮播 -->
+  <div class="container pic">
+    <div class="row clearfix pic2">
+      <div class="col-md-12 column" style="padding: 0px;">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active box">
+              <img src="images/pic1.jpg" alt="">
+              <div class="bg">
+                <div class="carousel-caption">
+                  <h3>习近平总书记关于生态文明建设重要论述综述</h3>
+                </div>
+              </div>
+            </div>
+            <div class="item box">
+              <img src="images/pic2.jpg" alt="">
+              <div class="bg">
+                <div class="carousel-caption">
+                  <h3>深入推进青藏高原生态保护和高质量发展</h3>
+                </div>
+              </div>
+            </div>
+            <div class="item box">
+              <img src="images/pic3.jpg" alt="">
+              <div class="bg">
+                <div class="carousel-caption">
+                  <h3>习近平：我们都是一家人，都是兄弟姐妹，我们的明天会更好</h3>
+                </div>
+              </div>
+            </div>
+            <div class="item box">
+              <img src="images/pic4.jpg" alt="">
+              <div class="bg">
+                <div class="carousel-caption">
+                  <h3>习近平赴青海考察调研</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 主体内容 -->
+  <div class="container">
+    <!-- 新闻资讯 -->
+    <div class="row clearfix">
+      <div class="col-md-12 column new-top">
+        <!-- 标题 -->
+        <div class="page-header">
+          <h1>
+            <font style="color: #c60a08;font-weight: bold;">新闻资讯 </font><small>各地广泛开展“永远跟党走”主题活动</small>
+            <ul>
+              <li class="li2"><a href="#">高层动态</a></li>
+              <li class="li1"><a href="#">
+                  <font color="#FFF">要闻要论</font>
+                </a></li>
+            </ul>
+          </h1>
+          <h3 style="color: #1a499b; line-height:35px;padding-left: 10px;">习近平在青海考察</h3>
+          <small style="font-size: 16px; color: #7f7f7f;padding-left: 10px; width: 80%;">坚持以人民为中心深化改革开放
+            深入推进青藏高原生态保护和高质量发展</small>
+          <a href="new.html" style="float: right; font-size: 18px;">查看更多>></a>
+        </div>
+      </div>
+    </div>
+    <div class="row clearfix" style="padding-bottom: 20px;">
+      <!-- 小轮播图 -->
+      <div class="col-md-4 column">
+        <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/1.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="images/2.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/3.jpg" alt="">
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!-- 新闻无序列表 -->
+      <div class="col-md-8 column new8">
+        <ul>
+          <li>
+            <a href="http://www.chinanews.com.cn/gn/2023/01-10/9932144.shtml">学习进行时丨习近平总书记和人民警察的故事</a>
+            <span>2023-01-10</span>
+          </li>
+          <li>
+            <a href="http://www.chinanews.com.cn/gn/2023/01-10/9932102.shtml">学习时节｜忠诚担当铸警魂，习近平总书记这样殷切嘱托</a>
+            <span>2023-01-10</span>
+          </li>
+          <li>
+            <a href="http://www.chinanews.com.cn/gn/2023/01-10/9932142.shtml">《习近平走进百姓家》出版发行</a>
+            <span>2023-01-10</span>
+          </li>
+          <li>
+            <a href="http://www.chinanews.com.cn/gj/2023/01-09/9931296.shtml">中国驻德大使：以理性、尊重和务实态度不断推动中德伙伴关系向前发展</a>
+            <span>2023-01-09</span>
+          </li>
+          <li>
+            <a href="http://www.chinanews.com.cn/gn/2023/01-08/9930531.shtml">中央社院举办张謇论坛 聚焦在高质量发展中促进共同富裕</a>
+            <span>2023-01-08</span>
+          </li>
+          <li>
+            <a href="http://www.chinanews.com.cn/gn/2023/01-07/9929940.shtml">青海全面完成医疗资源储备工作</a>
+            <span>2023-01-07</span>
+          </li>
+          <li>
+            <a href="http://www.chinanews.com.cn/gn/2023/01-06/9929476.shtml">传承和弘扬中华优秀传统文化的三重指向</a>
+            <span>2023-01-06</span>
+          </li>
+          <li>
+            <a href="http://www.chinanews.com.cn/gn/2023/01-05/9928340.shtml">开年首次会见外宾 习近平同菲律宾总统都谈了哪些话题？</a>
+            <span>2023-01-05</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 党史学习 -->
+  <div class="history">
+    <div class="container">
+      <div class="row clearfix">
+        <div class="col-md-12 column">
+          <!-- 标题 -->
+          <div class="page-header">
+            <h1>
+              <font style="color: #c60a08;font-weight: bold;">党史学习 </font><small>奋斗百年路 启航新征程</small><a href="#"
+                class="new12">查看更多>></a>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="row clearfix" style="padding-bottom: 20px;">
+        <!--垂直的胶囊式标签-->
+        <div class="col-md-2 column">
+          <ul class="nav nav-pills nav-stacked text-center ds">
+            <li><a href="#xxjy" data-toggle="tab">学习教育</a></li>
+            <li><a href="#wsx" data-toggle="tab">悟思想</a></li>
+            <li><a href="#dsll" data-toggle="tab">党史理论</a></li>
+            <li><a href="#bss" data-toggle="tab">办实事</a></li>
+            <li><a href="#wdk" data-toggle="tab">微党课</a></li>
+            <li><a href="#hsjy" data-toggle="tab">红色记忆</a></li>
+            <li><a href="#sglrw" data-toggle="tab">数风流人物</a></li>
+            <li><a href="#qcxd" data-toggle="tab">青春向党</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 column video">
+          <div class="tab-content" id="cczn">
+            <div class="tab-pane fade in active" id="xxjy">
+              <div class="embed-responsive embed-responsive-4by3">
+                <!-- 具有响应式特性的嵌入内容（视频）-->
+                <iframe class="embed-responsive-item" src="video\video01.mp4" style="margin-bottom: 20px;"></iframe>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="wsx">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="video\video02.mp4" style="margin-bottom: 20px;"></iframe>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="dsll">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="video\video03.mp4" style="margin-bottom: 20px;"></iframe>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="bss">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="video\video04.mp4" style="margin-bottom: 20px;"></iframe>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="wdk">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="video\video01.mp4" style="margin-bottom: 20px;"></iframe>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="hsjy">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="video\video02.mp4" style="margin-bottom: 20px;"></iframe>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="sglrw">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="video\video03.mp4" style="margin-bottom: 20px;"></iframe>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="qcxd">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="video\video04.mp4" style="margin-bottom: 20px;"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 文本内容 -->
+        <div class="col-md-4 column">
+          <h3>
+            讲好党的故事 传承红色基因
+          </h3>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;党的十八大以来，以习近平同志为核心的党中央高度重视学习党的历史。习近平总书记强调：“要讲好党的故事、革命的故事、根据地的故事、英雄和烈士的故事，加强革命传统教育、爱国主义教育、青少年思想道德教育，把红色基因传承好，确保红色江山永不变色。”我们要认真学习贯彻习近平总书记关于党的历史的重要论述，讲好党的故事，让红色基因代代相传。
+          </p>
+          <p>
+            <a class="btn" href="http://dangjian.people.com.cn/n1/2021/0610/c117092-32127213.html">查看详情 »</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 红色经典 -->
+  <div class="classic">
+    <div class="container">
+      <div class="row clearfix">
+        <div class="col-md-12 column">
+          <!-- 标题 -->
+          <div class="page-header">
+            <h1>
+              <font style="color: #c60a08;font-weight: bold;">红色经典 </font><small>百部经典影片 献礼建党百年</small><a
+                href="classic.html" class="new12">查看更多>></a>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="row clearfix" style="padding-bottom: 20px;">
+        <div class="col-md-12 column">
+          <div class="row">
+            <!-- 缩略图 -->
+            <div class="col-md-4">
+              <div class="thumbnail box-img">
+                <img alt="300x200" src="images/classic1.jpg" />
+                <div class="caption">
+                  <h3>
+                    湖北竹溪：“蛟龙”载梦出群山
+                  </h3>
+                  <p>
+                    十巫高速鲍溢段起于湖北省十堰市郧阳区鲍峡镇，止于十堰市竹山县溢水镇，全长58.6公里，目前已完成基础施工，预计将在今年“七一”期间建成通车。
+                  </p>
+                  <p>
+                    <a class="btn btn-primary"
+                      href="https://hb.cri.cn/n/20210114/1b7db051-d127-4ee8-b265-290cbbd75c85.html">查看详情</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail box-img">
+                <img alt="300x200" src="images/classic2.jpg" />
+                <div class="caption">
+                  <h3>
+                    《开国大典》
+                  </h3>
+                  <p>
+                    电影《开国大典》用纪实的手法展现了从中国共产党取得三大战役的胜利开始直至10月1日在北京举行开国大典的历史过程。
+                  </p>
+                  <p>
+                    <a class="btn btn-primary" href="https://v.qq.com/x/cover/z1omi0l7ipn0kfk/m0040gff32s.html">点击观看</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail box-img">
+                <img alt="300x200" src="images/classic3.png" />
+                <div class="caption">
+                  <h3>
+                    萧红《放火者》
+                  </h3>
+                  <p>
+                    萧红散文题材广泛，内容丰富，具有深刻的社会意义。他的散文语言洗炼而隽永，清新而绚丽。作品的基调是歌颂新时代、新生活和普通的劳动者。
+                  </p>
+                  <p>
+                    <a class="btn btn-primary" href="https://m.lz13.cn/meiwen/169198.html">查看详情</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer start -->
+  <div class="footer">
+    <div class="container">
+      <div class="row clearfix">
+        <div class="col-md-12 column">
+          <div class="link">
+            <p>友情链接：</p>
+            <a href="http://www.people.com.cn/">&nbsp;&nbsp;人民网</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
+              href="https://www.xuexi.cn/">学习强国</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
+              href="https://www.12371.cn/">共产党员网</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
+              href="http://cpc.people.com.cn/n1/2021/1004/c164113-32245574.html">中国共产党新闻网</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
+              href="report.html">实验报告</a>
+          </div>
+        </div>
+
+        <div class="footer_top">
+          <div class="col-md-7 column">
+            <div class="left">
+              <ul>
+                <li class="li1">
+                  <a href="#">关于中共</a>
+                  <ul>
+                    <li class="li2"><a href="#">中共简介</a></li>
+                    <li class="li2"><a href="#">历史沿革</a></li>
+                    <li class="li2"><a href="#">指导思想</a></li>
+                    <li class="li2"><a href="#">组织机构</a></li>
+                  </ul>
+                </li>
+
+                <li class="li1">
+                  <a href="#">新闻资讯</a>
+                  <ul>
+                    <li class="li2"><a href="#">高层动态</a></li>
+                    <li class="li2"><a href="#">中央文件</a></li>
+                    <li class="li2"><a href="#">人事任免</a></li>
+                    <li class="li2"><a href="#">反腐倡廉</a></li>
+                    <li class="li2"><a href="#">综合报道</a></li>
+                    <li class="li2"><a href="#">专题专栏</a></li>
+                  </ul>
+                </li>
+
+                <li class="li1">
+                  <a href="#">党史学习</a>
+                  <ul>
+                    <li class="li2"><a href="#">创新理论</a></li>
+                    <li class="li2"><a href="#">光辉历程</a></li>
+                    <li class="li2"><a href="#">时代先锋</a></li>
+                  </ul>
+                </li>
+
+                <li class="li1">
+                  <a href="#">红色经典</a>
+                  <ul>
+                    <li class="li2"><a href="#">经典影视</a></li>
+                    <li class="li2"><a href="#">文学作品</a></li>
+                    <li class="li2"><a href="#">音乐作品</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-5 column">
+            <div class="right">
+              <div class="ewm">
+                人民网客户端<br>
+                <img src="images/ewm.png" width="114" height="114">
+              </div>
+
+              <div class="ewm">
+                官方微信<br>
+                <img src="images/ewm2.jpg" width="114" height="114">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 column">
+          <div class="footer_bottom">
+            Copyright &copy; 江西财经大学软件与物联网工程学院 版权所有 网站备案号：赣ICP备xxxxxxxx号
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- 包括所有已编译的插件 -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

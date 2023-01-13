@@ -1,0 +1,46 @@
+
+
+.sdxf{
+    background-image:url('../images/hsjd-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* 全国优秀共产党员 */
+.well {
+    background-color: transparent;
+    border: none;
+}
+.page-header{border: 0px; margin-bottom: 0px;}
+.red{
+    color: #c60a08; 
+    display: inline;
+    font-weight: bold;
+}
+.gcd li{background-color: 	#CD5C5C;}
+.gcd a{
+    color: white;
+    text-decoration:none;
+}
+.gcd a h3{
+    font-size:20px;
+}
+.gcd a:hover{
+	color: white;
+}
+.nav>li>a:hover{
+	background-color: #c60a08;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color:#c60a08;
+    color: white;
+}
+
+/* “共和国勋章”获得者 */
+.caption{
+    background-color: #ce0000;
+}
+.caption h3{
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}

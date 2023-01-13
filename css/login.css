@@ -1,0 +1,18 @@
+.form{
+    width: 850px;
+    padding-bottom: 60px;
+}
+.tip{margin-top: 10px;}
+.down{margin-top: 15px;}
+.tj{
+    width: 140px;
+    margin-right: 60px;
+    color: white;
+    background-color: #c60a08;
+}
+.btn-default .tj{background-color:tomato}
+.login2{
+    background-image:url('../images/hsjd-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}

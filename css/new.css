@@ -1,0 +1,95 @@
+/* 巨幕 */
+.big{margin: 0px;padding:0px;}
+.jumbotron{
+    padding: 230px 10px 280px 1100px;
+    background-image:url('../images/new-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* 主要新闻 */
+.red{color: #c60a08; display: inline;font-weight: bold;}
+.page-header {border-bottom: 2px solid  #c60a08;}
+.new12{
+    float: right;
+    font-size: 18px;
+    margin-top: 30px;
+    text-decoration:none;
+}
+.new6 li {
+	font-size:15px;
+	height:30px;
+	margin-bottom:2px;
+	line-height:30px;
+	background:url('../images/listbg.png') no-repeat left center;
+	padding:0px 0px 5px 10px;
+}
+.new6 li a{
+	width:80%;
+	float:left;
+    color: black;
+	box-sizing:border-box;
+	padding-left:15px;
+    text-decoration:none;
+}
+.new6 li a:hover{color: tomato;}
+.new6 li span{
+	font-size:14px;
+	color:#8a8a8a;
+	float:right;
+}
+/* 图片链接 */
+.link2{margin: 20px 0px 20px 0px;}
+/* 三份新闻 */
+.third{
+	background-color: #f3e7d8;
+	padding-bottom: 20px;
+}
+.new3 li {
+	font-size:15px;
+	height:30px;
+	margin-bottom:2px;
+	line-height:30px;
+	padding:0px 0px 5px 0px;
+}
+.new3 li a{
+    color: black;
+	box-sizing:border-box;
+    text-decoration:none;
+}
+.new3 li a:hover{color: tomato;}
+/* 图片轮播 */
+#carousel-example-generic{
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+}
+.new{
+    background-image:url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 40px;
+}
+/* 致敬英雄 */
+.text{margin:0px 0px 40px 10px;}
+.text a{
+    font-size:15px;
+	height:34px;
+	margin-bottom:2px;
+	line-height:30px;
+    color: black;
+	box-sizing:border-box;
+    text-decoration:none;
+}
+.text a:hover{color: tomato;}
+.box{
+    position:relative;
+	overflow:hidden;
+}
+.box img:nth-of-type(1){
+    transition:0.5s linear; /*代表持续时间为0.5s，恒速*/
+}
+.box:hover img:nth-of-type(1)
+{
+    transform:scale(1.1); /*图片放大*/
+    overflow:hidden;  /*多余部分隐藏*/
+}

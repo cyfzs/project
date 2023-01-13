@@ -1,0 +1,31 @@
+.cxll{
+    background-image:url('../images/wkt-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}  
+/* 学习研讨 */
+.page-header{border: 0px; margin-bottom: 0px;}
+.red{
+    color: #c60a08; 
+    display: inline;
+    font-weight: bold;
+}
+.xxyt ul{padding-left: 15px;}
+.xxyt li{
+    font-size:18px;
+	height:60px;
+	margin-bottom:2px;
+	line-height:60px;
+	padding:0px 0px 5px 10px;
+    list-style-type:disc;
+}
+.xxyt  a{
+    color: black;
+	box-sizing:border-box;
+    text-decoration:none;
+}
+.xxyt  a:hover{color: tomato;}
+.pagination li a:focus{
+    background-color:  tomato;
+    color: white;
+}
